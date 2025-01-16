@@ -277,3 +277,103 @@ export default {
 - Track conversion rates
 
 This documentation serves as a comprehensive guide for implementing the e-commerce marketplace, focusing on maintainability, scalability, and user experience.
+
+
+
+# **E-commerce Data Schema Relationships**
+
+
+
+erDiagram
+    PRODUCT ||--o{ ORDER_ITEM : contains
+    ORDER ||--|{ ORDER_ITEM : includes
+    CUSTOMER ||--o{ ORDER : places
+    PRODUCT ||--o{ PRODUCT_CATEGORY : belongs_to
+    CATEGORY ||--|{ PRODUCT_CATEGORY : has
+    ADDRESS ||--o{ CUSTOMER : has
+    CUSTOMER ||--o{ REVIEW : writes
+    PRODUCT ||--o{ REVIEW : receives
+    ORDER ||--o{ ORDER_STATUS : tracks
+    
+    PRODUCT {
+        string id PK
+        string name
+        float price
+        int stock
+        string description
+        string[] images
+        datetime created_at
+        datetime updated_at
+        boolean is_active
+    }
+
+    CATEGORY {
+        string id PK
+        string name
+        string description
+        string slug
+        string parent_id FK
+    }
+
+    PRODUCT_CATEGORY {
+        string product_id FK
+        string category_id FK
+    }
+
+    CUSTOMER {
+        string id PK
+        string first_name
+        string last_name
+        string email
+        string phone
+        datetime created_at
+        boolean is_active
+    }
+
+    ADDRESS {
+        string id PK
+        string customer_id FK
+        string street
+        string city
+        string state
+        string postal_code
+        string country
+        boolean is_default
+        string type
+    }
+
+    ORDER {
+        string id PK
+        string customer_id FK
+        float total_amount
+        string payment_status
+        datetime order_date
+        string shipping_address_id FK
+        string billing_address_id FK
+    }
+
+    ORDER_ITEM {
+        string id PK
+        string order_id FK
+        string product_id FK
+        int quantity
+        float unit_price
+        float subtotal
+    }
+
+    ORDER_STATUS {
+        string id PK
+        string order_id FK
+        string status
+        string description
+        datetime created_at
+    }
+
+    REVIEW {
+        string id PK
+        string product_id FK
+        string customer_id FK
+        int rating
+        string comment
+        datetime created_at
+    }
