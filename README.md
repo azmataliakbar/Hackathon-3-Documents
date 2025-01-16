@@ -1,7 +1,7 @@
 # **Hackathon 3 Documents Day1 / Day2**
 
 # General E-commerce Marketplace Technical Foundation
-**Prepared Date:** January 16, 2025
+**Prepared Date:** January 16, 2025   by: Azmat Ali
 
 ## 1. Technical Plan Aligned with Business Goals
 
