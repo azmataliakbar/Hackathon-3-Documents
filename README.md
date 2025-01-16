@@ -5,14 +5,14 @@
 
 ## 📌 1. Technical Plan Aligned with Business Goals
 
-### 🌟 Business Objectives
+### 🌟 Business Objectives 🌟
 - Create a scalable e-commerce platform
 - Provide seamless shopping experience
 - Enable efficient product management
 - Ensure secure payment processing
 - Implement order tracking and management
 
-### 🌟 Technical Requirements
+### 🌟 Technical Requirements 🌟
 
 #### 🌟 Frontend Requirements
 - Next.js-based responsive web application
@@ -21,14 +21,14 @@
 - Progressive Web App (PWA) capabilities
 - Responsive design breakpoints: Mobile (< 768px), Tablet (768px - 1024px), Desktop (> 1024px)
 
-#### 🌟 Backend Requirements (Sanity CMS)
+#### 🌟 Backend Requirements (Sanity CMS) 🌟
 - Content management for products, categories, and orders
 - Real-time inventory tracking
 - Order management system
 - Customer data management
 - Role-based access control
 
-#### 🌟 Third-party Integrations
+#### 🌟 Third-party Integrations 🌟
 - Payment Gateway (Stripe)
 - Email Service (SendGrid)
 - Image CDN (Cloudinary)
@@ -37,7 +37,7 @@
 
 ## 📌 2. System Architecture
 
-### 🌟🌟🌟 High-Level Architecture Diagram
+### 🌟🌟🌟 High-Level Architecture Diagram 🌟🌟🌟
 ```mermaid
 graph TD
     A[Frontend - Next.js] --> B[API Layer]
@@ -53,9 +53,9 @@ graph TD
     I --> L[Customers]
 ```
 
-### 🌟 Core Workflows
+### 🌟 Core Workflows 🌟
 
-#### 🌟🌟🌟 Product Browse & Purchase Flow
+#### 🌟🌟🌟 Product Browse & Purchase Flow 🌟🌟🌟
 ```mermaid
 sequenceDiagram
     participant U as User
@@ -77,7 +77,7 @@ sequenceDiagram
 
 ## 📌 3. API Requirements
 
-### 🌟🌟🌟 Product Management APIs
+### 🌟🌟🌟 Product Management APIs 🌟🌟🌟
 
 | Endpoint            | Method |    Description     |               Request/Response                       |
 |-------------------- |--------|--------------------|------------------------------------------------------|
@@ -89,7 +89,7 @@ sequenceDiagram
 
 ## 📌 4. Sanity Schemas
 
-### 🌟🌟🌟 Product Schema
+### 🌟🌟🌟 Product Schema 🌟🌟🌟
 ```javascript
 export default {
   name: 'product',
@@ -143,7 +143,7 @@ export default {
 }
 ```
 
-### 🌟🌟🌟 Order Schema
+### 🌟🌟🌟 Order Schema 🌟🌟🌟
 ```javascript
 export default {
   name: 'order',
@@ -280,7 +280,7 @@ This documentation serves as a comprehensive guide for implementing the e-commer
 
 
 
-# 🏗️ **E-commerce Data Schema Relationships**
+# 🏗️ **E-commerce Data Schema Relationships** 🏗️
 
 
 ```mermaid
@@ -378,7 +378,7 @@ erDiagram
         datetime created_at
     }
 ```
-# 🌟🌟🌟 ** Day 1 **
+# 🌟🌟🌟 ** Day 1 ** 🌟🌟🌟
 
 ![General E-Commerce For Me](https://github.com/user-attachments/assets/99593a9a-ae5a-4954-b5e2-62ad535472b8)
 
