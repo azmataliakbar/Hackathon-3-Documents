@@ -283,7 +283,7 @@ This documentation serves as a comprehensive guide for implementing the e-commer
 # **E-commerce Data Schema Relationships**
 
 
-
+```mermaid
 erDiagram
     PRODUCT ||--o{ ORDER_ITEM : contains
     ORDER ||--|{ ORDER_ITEM : includes
