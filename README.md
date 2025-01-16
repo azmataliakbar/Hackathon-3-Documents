@@ -380,5 +380,5 @@ erDiagram
 ```
 # ** Day 1**
 
-![General E-Commerce For Me](assets/images/hck1.png)
+![General E-Commerce For Me](https://github.com/user-attachments/assets/99593a9a-ae5a-4954-b5e2-62ad535472b8)
 
