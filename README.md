@@ -3,41 +3,41 @@
 # General E-commerce Marketplace Technical Foundation
 **Prepared Date:** January 16, 2025   by: Azmat Ali
 
-## 1. Technical Plan Aligned with Business Goals
+## 📌 1. Technical Plan Aligned with Business Goals
 
-### Business Objectives
+### 🌟 Business Objectives
 - Create a scalable e-commerce platform
 - Provide seamless shopping experience
 - Enable efficient product management
 - Ensure secure payment processing
 - Implement order tracking and management
 
-### Technical Requirements
+### 🌟 Technical Requirements
 
-#### Frontend Requirements
+#### 🌟 Frontend Requirements
 - Next.js-based responsive web application
 - Server-side rendering for improved SEO
 - Client-side state management using React Context/Redux
 - Progressive Web App (PWA) capabilities
 - Responsive design breakpoints: Mobile (< 768px), Tablet (768px - 1024px), Desktop (> 1024px)
 
-#### Backend Requirements (Sanity CMS)
+#### 🌟 Backend Requirements (Sanity CMS)
 - Content management for products, categories, and orders
 - Real-time inventory tracking
 - Order management system
 - Customer data management
 - Role-based access control
 
-#### Third-party Integrations
+#### 🌟 Third-party Integrations
 - Payment Gateway (Stripe)
 - Email Service (SendGrid)
 - Image CDN (Cloudinary)
 - Analytics (Google Analytics)
 - Search Implementation (Algolia)
 
-## 2. System Architecture
+## 📌 2. System Architecture
 
-### High-Level Architecture Diagram
+### 🌟🌟🌟 High-Level Architecture Diagram
 ```mermaid
 graph TD
     A[Frontend - Next.js] --> B[API Layer]
@@ -53,9 +53,9 @@ graph TD
     I --> L[Customers]
 ```
 
-### Core Workflows
+### 🌟 Core Workflows
 
-#### Product Browse & Purchase Flow
+#### 🌟🌟🌟 Product Browse & Purchase Flow
 ```mermaid
 sequenceDiagram
     participant U as User
@@ -75,9 +75,9 @@ sequenceDiagram
     F->>U: Success Message
 ```
 
-## 3. API Requirements
+## 📌 3. API Requirements
 
-### Product Management APIs
+### 🌟🌟🌟 Product Management APIs
 
 | Endpoint            | Method |    Description     |               Request/Response                       |
 |-------------------- |--------|--------------------|------------------------------------------------------|
@@ -87,9 +87,9 @@ sequenceDiagram
 | `/api/orders`       | POST   | Create order       | Request: `{ items, customer, payment }`              |
 | `/api/orders/:id`   | GET    | Get order status   | Response: `{ id, status, items, tracking }`          |
 
-## 4. Sanity Schemas
+## 📌 4. Sanity Schemas
 
-### Product Schema
+### 🌟🌟🌟 Product Schema
 ```javascript
 export default {
   name: 'product',
@@ -143,7 +143,7 @@ export default {
 }
 ```
 
-### Order Schema
+### 🌟🌟🌟 Order Schema
 ```javascript
 export default {
   name: 'order',
@@ -217,27 +217,27 @@ export default {
 }
 ```
 
-## 5. Implementation Roadmap
+## 📌 5. Implementation Roadmap
 
-### Phase 1: Setup & Basic Structure (Day 3)
+### Phase 1: Setup & Basic Structure
 - Initialize Next.js project
 - Set up Sanity CMS
 - Implement basic routing
 - Create core components
 
-### Phase 2: Core Features (Day 4)
+### Phase 2: Core Features
 - Product listing and details
 - Shopping cart functionality
 - User authentication
 - Basic checkout process
 
-### Phase 3: Integration & Testing (Day 5)
+### Phase 3: Integration & Testing
 - Payment gateway integration
 - Order management
 - Email notifications
 - Testing and bug fixes
 
-## 6. Best Practices Implementation
+## 📌 6. Best Practices Implementation
 
 ### Performance Optimization
 - Image optimization using next/image
@@ -257,7 +257,7 @@ export default {
 - Sitemap generation
 - robots.txt configuration
 
-## 7. Quality Assurance Checklist
+## 📌 7. Quality Assurance Checklist
 
 - [ ] Mobile responsiveness
 - [ ] Cross-browser compatibility
@@ -268,7 +268,7 @@ export default {
 - [ ] Form validation
 - [ ] Payment flow testing
 
-## 8. Monitoring & Analytics
+## 📌 8. Monitoring & Analytics
 
 - Implement error tracking (Sentry)
 - Set up performance monitoring
@@ -280,7 +280,7 @@ This documentation serves as a comprehensive guide for implementing the e-commer
 
 
 
-# **E-commerce Data Schema Relationships**
+# 🏗️ **E-commerce Data Schema Relationships**
 
 
 ```mermaid
@@ -378,7 +378,7 @@ erDiagram
         datetime created_at
     }
 ```
-# ** Day 1**
+# 🌟🌟🌟 ** Day 1 **
 
 ![General E-Commerce For Me](https://github.com/user-attachments/assets/99593a9a-ae5a-4954-b5e2-62ad535472b8)
 
