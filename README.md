@@ -382,3 +382,5 @@ erDiagram
 
 ![General E-Commerce For Me](https://github.com/user-attachments/assets/99593a9a-ae5a-4954-b5e2-62ad535472b8)
 
+![Image](https://github.com/user-attachments/assets/6a4e2836-8677-401f-a333-acde42c3eae6)
+
