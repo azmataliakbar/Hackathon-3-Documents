@@ -377,7 +377,7 @@ erDiagram
         string comment
         datetime created_at
     }
-
+```
 # ** Day 1**
 
 ![General E-Commerce For Me](assets/images/hck1.png)
