@@ -401,3 +401,11 @@ erDiagram
 
 ![Image](https://github.com/user-attachments/assets/9a312b40-3dee-449a-a30a-a143eee40af8)
 
+# PDF 
+
+[README.pdf](https://github.com/user-attachments/files/18449463/README.pdf)
+
+[README3.pdf](https://github.com/user-attachments/files/18449471/README3.pdf)
+
+[README2.pdf](https://github.com/user-attachments/files/18449473/README2.pdf)
+
