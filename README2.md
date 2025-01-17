@@ -19,7 +19,7 @@
 
 ## 📌 4-  API Requirements 📌
 🌟🌟🌟 Product Management APIs 🌟🌟🌟
-![Image](https://github.com/user-attachments/assets/370c90a6-b9f3-4250-bf66-cea9adc2ac2b)
+![Image](https://github.com/user-attachments/assets/048c4d1f-48b3-481c-b8b8-249e79736a6c)
 
 
 ## 🏗️ 5- E-commerce Data Schema Relationships 🏗️
