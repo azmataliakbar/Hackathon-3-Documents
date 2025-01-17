@@ -34,6 +34,11 @@
 - Image CDN (Cloudinary)
 - Analytics (Google Analytics)
 - Search Implementation (Algolia)
+  
+ ### 🌟🌟🌟 E-Commerce Work Process By Image 🌟🌟🌟
+
+  ![Image](https://github.com/user-attachments/assets/41f6427d-67d3-4e4b-83ad-07fd553d3036)
+  
 
 ## 📌 2. System Architecture
 
