@@ -1,4 +1,4 @@
-# **Hackathon 3 Documents Day1 / Day2**
+# **Hackathon 3 Documents  Day 2**
 
 # General E-commerce Marketplace Technical Foundation
 **Prepared Date:** January 16, 2025   by: Azmat Ali
