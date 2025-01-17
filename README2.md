@@ -1,5 +1,10 @@
 
 
+# General E-commerce Marketplace Technical Foundation
+**Prepared Date:** January 16, 2025   by: Azmat Ali
+
+ ## Way Of Work Of E-Commerce By Images 
+
  ## 🌟🌟🌟 E-Commerce Work Process By Image 🌟🌟🌟
 
   ![Image](https://github.com/user-attachments/assets/41f6427d-67d3-4e4b-83ad-07fd553d3036)
