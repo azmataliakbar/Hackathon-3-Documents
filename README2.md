@@ -1,5 +1,9 @@
 
 
+ ### 🌟🌟🌟 E-Commerce Work Process By Image 🌟🌟🌟
+
+  ![Image](https://github.com/user-attachments/assets/41f6427d-67d3-4e4b-83ad-07fd553d3036)
+
 📌 System Architecture 📌
 🌟🌟🌟 High-Level Architecture Diagram 🌟🌟🌟
 ![Image](https://github.com/user-attachments/assets/b1644e3d-97e2-41e6-aaaa-d8365aa7892c)
