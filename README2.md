@@ -24,3 +24,12 @@
 
 ## 🏗️ 5- E-commerce Data Schema Relationships 🏗️
 ![Image](https://github.com/user-attachments/assets/b1644e3d-97e2-41e6-aaaa-d8365aa7892c)
+
+
+# PDF
+
+[README.pdf](https://github.com/user-attachments/files/18449463/README.pdf)
+
+[README3.pdf](https://github.com/user-attachments/files/18449471/README3.pdf)
+
+[README2.pdf](https://github.com/user-attachments/files/18449473/README2.pdf)
