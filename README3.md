@@ -96,10 +96,4 @@
 
 This documentation serves as a comprehensive guide for implementing the e-commerce marketplace, focusing on maintainability, scalability, and user experience.
 
-# PDF
 
-[README.pdf](https://github.com/user-attachments/files/18449463/README.pdf)
-
-[README3.pdf](https://github.com/user-attachments/files/18449471/README3.pdf)
-
-[README2.pdf](https://github.com/user-attachments/files/18449473/README2.pdf)
