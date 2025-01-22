@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+    <!-- Background -->
+    <rect width="1200" height="400" fill="#f8f9fa"/>
+    
+    <!-- Main Component Boxes -->
+    <!-- User/Customer Box -->
+    <rect x="50" y="160" width="120" height="60" rx="10" fill="#ff7eb3" stroke="#000" stroke-width="2"/>
+    <text x="110" y="195" text-anchor="middle" font-family="Arial" font-weight="bold">User/Customer</text>
+    
+    <!-- Frontend/Next.js Box -->
+    <rect x="270" y="160" width="120" height="60" rx="10" fill="#7afcff" stroke="#000" stroke-width="2"/>
+    <text x="330" y="195" text-anchor="middle" font-family="Arial" font-weight="bold">Frontend Next.js</text>
+    
+    <!-- Backend/Sanity Box -->
+    <rect x="490" y="160" width="120" height="60" rx="10" fill="#feff9c" stroke="#000" stroke-width="2"/>
+    <text x="550" y="195" text-anchor="middle" font-family="Arial" font-weight="bold">Sanity CMS</text>
+    
+    <!-- Third Party APIs Box -->
+    <rect x="710" y="160" width="240" height="60" rx="10" fill="#a5d8ff" stroke="#000" stroke-width="2"/>
+    <text x="830" y="185" text-anchor="middle" font-family="Arial" font-weight="bold">Third Party APIs</text>
+    <text x="830" y="205" text-anchor="middle" font-size="10" font-family="Arial">Payment • Shipping • Order</text>
+    
+    <!-- Flow Steps -->
+    <!-- Step 1: Product Browse -->
+    <path d="M 170 170 L 270 170" stroke="#4CAF50" stroke-width="2" marker-end="url(#green-arrow)"/>
+    <text x="220" y="160" text-anchor="middle" font-size="12" fill="#4CAF50" font-weight="bold">1. Browse Products</text>
+    
+    <!-- Step 2: Order Placement -->
+    <path d="M 170 190 L 270 190" stroke="#2196F3" stroke-width="2" marker-end="url(#blue-arrow)"/>
+    <text x="220" y="210" text-anchor="middle" font-size="12" fill="#2196F3" font-weight="bold">2. Place Order</text>
+    
+    <!-- Step 3: Payment Process -->
+    <path d="M 390 170 L 490 170" stroke="#FFC107" stroke-width="2" marker-end="url(#yellow-arrow)"/>
+    <text x="440" y="160" text-anchor="middle" font-size="12" fill="#FFC107" font-weight="bold">3. Process Payment</text>
+    
+    <!-- Step 4: Order Confirmation -->
+    <path d="M 490 190 L 390 190" stroke="#9C27B0" stroke-width="2" marker-end="url(#purple-arrow)"/>
+    <text x="440" y="210" text-anchor="middle" font-size="12" fill="#9C27B0" font-weight="bold">4. Order Confirm</text>
+    
+    <!-- Step 5: Shipment Process -->
+    <path d="M 610 170 L 710 170" stroke="#FF5722" stroke-width="2" marker-end="url(#orange-arrow)"/>
+    <text x="660" y="160" text-anchor="middle" font-size="12" fill="#FF5722" font-weight="bold">5. Shipment</text>
+    
+    <!-- Step 6: Delivery Status -->
+    <path d="M 710 190 L 610 190" stroke="#795548" stroke-width="2" marker-end="url(#brown-arrow)"/>
+    <text x="660" y="210" text-anchor="middle" font-size="12" fill="#795548" font-weight="bold">6. Delivery Status</text>
+    
+    <!-- Arrow definitions -->
+    <defs>
+        <marker id="green-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50"/>
+        </marker>
+        <marker id="blue-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#2196F3"/>
+        </marker>
+        <marker id="yellow-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#FFC107"/>
+        </marker>
+        <marker id="purple-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#9C27B0"/>
+        </marker>
+        <marker id="orange-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#FF5722"/>
+        </marker>
+        <marker id="brown-arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#795548"/>
+        </marker>
+    </defs>
+    
+    <!-- Detailed Flow Legend -->
+    <rect x="50" y="260" width="920" height="120" rx="5" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <text x="60" y="280" font-family="Arial" font-size="14" font-weight="bold">Complete E-commerce Flow:</text>
+    <text x="60" y="300" font-family="Arial" font-size="12" fill="#4CAF50">1. Product Browse: User browses products through frontend interface</text>
+    <text x="60" y="320" font-family="Arial" font-size="12" fill="#2196F3">2. Order Placement: User selects products and initiates checkout</text>
+    <text x="60" y="340" font-family="Arial" font-size="12" fill="#FFC107">3. Payment Process: Secure payment processing through payment gateway</text>
+    <text x="500" y="300" font-family="Arial" font-size="12" fill="#9C27B0">4. Order Confirmation: Order verified and confirmed to user</text>
+    <text x="500" y="320" font-family="Arial" font-size="12" fill="#FF5722">5. Shipment Process: Order processed for shipping</text>
+    <text x="500" y="340" font-family="Arial" font-size="12" fill="#795548">6. Delivery Status: Real-time tracking and delivery updates</text>
+</svg>
